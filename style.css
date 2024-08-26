@@ -1,0 +1,232 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 100vh;
+    background-color: rgb(200, 255, 255);
+}
+.header{
+    display: flex;
+    height: 100px;
+    background-color: black;
+    color: white;
+    align-items: center;
+    margin-bottom: 2rem;
+    justify-content: center;
+    font-size: 3rem;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    /* background-color: red; */
+    justify-content: center;
+
+}
+.choice{
+    height: 215px;
+    width: 215px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.choice:hover{
+    cursor: pointer;
+    /* opacity: 0.5; */
+    background-color: black;
+}
+.choice>img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.score-board{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 3rem 0;
+    font-size: 2.5rem;
+    font-weight: 700;
+    gap: 5rem;
+}
+.score{
+    display: flex;
+    flex-direction: column;
+}
+.score>p{
+    text-align: center;
+}
+.msg-container{
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
+    font-weight: bold;
+}
+@media screen and (max-width:1055px){
+    .header h1{
+        font-size: 5rem;
+    }
+    .msg-container{
+        font-size: 3.5rem;
+    }
+}
+@media screen and (max-width:919px){
+    .msg-container{
+        font-size: 3rem;
+    }
+}
+@media screen and (max-width:837px){
+    .choice{
+        height: 185px;
+        width: 185px;
+    }
+    .choice img{
+        height: 170px;
+        width: 170px;
+    }
+}
+@media screen and (max-width:785px){
+    .header h1{
+        font-size: 4.5rem;
+    }
+    .msg-container{
+        font-size: 2.5rem;
+    }
+}
+@media screen and (max-width:740px){
+    .choice{
+        height: 165px;
+        width: 165px;
+    }
+    .choice img{
+        height: 150px;
+        width: 150px;
+    }
+}
+@media screen and (max-width:691px){
+    .header h1{
+        font-size: 4rem;
+    }
+}
+@media screen and (max-width:672px){
+    .choice{
+        height: 150px;
+        width: 150px;
+    }
+    .choice img{
+        height: 135px;
+        width: 135px;
+    }
+}
+@media screen and (max-width:619px){
+    .header h1{
+        font-size: 3.5rem;
+    }
+    .choice{
+        height: 140px;
+        width: 140px;
+    }
+    .choice img{
+        height: 125px;
+        width: 125px;
+    }
+    .msg-container{
+        font-size: 2.4rem;
+    }
+}
+@media screen and (max-width:601px){
+    .container{
+        gap: 4rem;
+    }
+    .choice{
+        height: 125px;
+        width: 125px;
+    }
+    .choice img{
+        height: 110px;
+        width: 110px;
+    }
+    .score-board{
+        font-size: 2rem;
+    }
+    .msg-container{
+        width: 90%;
+        margin: 0px auto;
+    }
+}
+@media screen and (max-width:536px){
+    .header h1{
+        font-size: 3rem;
+    }
+}
+@media screen and (max-width:518px){
+    .container{
+        gap: 3rem;
+    }
+}
+@media screen and (max-width:472px){
+    .header h1{
+        font-size: 2.5rem;
+    }
+    .container{
+        gap: 2rem;
+    }
+}
+@media screen and (max-width:448px){
+    .container{
+        gap: 1.8rem;
+    }
+}
+@media screen and (max-width:425px){
+    .choice{
+        height: 110px;
+        width: 110px;
+    }
+    .choice img{
+        height: 95px;
+        width: 95px;
+    }
+}
+@media screen and (max-width:417px){
+    .msg-container{
+        font-size: 2.2rem;
+    }
+}
+@media screen and (max-width:398px){
+    .container{
+        gap: 1.5rem;
+    }
+    .choice{
+        height: 100px;
+        width: 100px;
+    }
+    .choice img{
+        height: 85px;
+        width: 85px;
+    }
+}
+@media screen and (max-width:387px){
+    .header h1{
+        font-size: 2.3rem;
+    }
+}
+@media screen and (max-width:358px){
+    .header h1{
+        font-size: 2.1rem;
+    }
+    .container{
+        gap: 1.2rem;
+    }
+    .choice{
+        height: 95px;
+        width: 95px;
+    }
+    .choice img{
+        height: 80px;
+        width: 80px;
+    }
+}
